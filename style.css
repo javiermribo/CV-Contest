@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-photo, .profileImg {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-image: url("./Assets/profile-photo.jpg");
+  border-radius: 50%;
+}
+
+.toggle-properties {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profileImg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.aboutMeName {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-right: 0;
+}
+
+.aboutMeDescription {
+  font-size: 0.9rem;
+}
+
+.progress-achivement {
+  font-size: 0.8rem;
+  height: 30px;
+}
+
+.lineTimeline {
+  width: 3px;
+  height: 300px;
+  margin: 0.6rem;
+  background-color: black;
+  position: absolute;
+}
+
+.circleTimeline {
+  width: 25px;
+  height: 25px;
+  margin-top: 70px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  z-index: 1;
+}
