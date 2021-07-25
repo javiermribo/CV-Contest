@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.navNameTitle {
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+.bodyStyleProperties {
+  color: white;
+  background-image: linear-gradient(to bottom, #2c73d2, #1678cf, #007dcc, #0081c7, #0085c2, #0087bc, #0089b5, #008aae, #008aa4, #008a97, #008989, #008f7a);
+}
+
 .profile-photo, .profileImg {
   height: 50px;
   width: 50px;
@@ -34,9 +49,21 @@
   font-size: 0.9rem;
 }
 
+.knowledgeIndicator {
+  margin-left: 70px;
+}
+
 .progress-achivement {
   font-size: 0.8rem;
   height: 30px;
+}
+
+.progress-achivement-highlighted {
+  background-color: #00ac93;
+}
+
+.edAndExperience {
+  margin-bottom: 100px;
 }
 
 .lineTimeline {
@@ -52,7 +79,54 @@
   height: 25px;
   margin-top: 70px;
   border-radius: 50%;
-  background-color: aqua;
+  background-color: #845EC2;
   position: absolute;
   z-index: 1;
+}
+
+.card {
+  color: black
+}
+
+.cardPrimaryTitle {
+  font-size: 1.5rem;
+}
+
+.cardSecondaryTitle {
+  font-size: 1.1rem;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .navNameTitle {
+  font-size: 1rem;
+  padding-left: 10px;
+  }
+
+  .knowledgeIndicator {
+    padding-top: 50px;
+    margin-left: 0px;
+  }
+
+  .progressBar {
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .knowledgeIndicator {
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+
+  .progressBar {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+
 }
