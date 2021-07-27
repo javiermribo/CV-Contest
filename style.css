@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
-
 .navNameTitle {
   font-size: 1.2rem;
   padding-left: 10px;
@@ -17,6 +12,19 @@ html {
 .bodyStyleProperties {
   color: white;
   background-image: linear-gradient(to bottom, #2c73d2, #1678cf, #007dcc, #0081c7, #0085c2, #0087bc, #0089b5, #008aae, #008aa4, #008a97, #008989, #008f7a);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.heroSection {
+  margin: 6% 0 6% 0;
+}
+
+.heroImg {
+  height: auto;
+  width: 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .profile-photo, .profileImg {
@@ -68,7 +76,7 @@ html {
 
 .lineTimeline {
   width: 3px;
-  height: 300px;
+  height: 600px;
   margin: 0.6rem;
   background-color: black;
   position: absolute;
