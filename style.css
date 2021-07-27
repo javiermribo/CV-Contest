@@ -14,6 +14,12 @@
   height: 100%;
 }
 
+.backgroundTryStyle {
+  background-image: url('./Assets/backgroundTry.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
 .bodyStyleProperties {
   background-image: linear-gradient(to bottom, #2c73d2, #1678cf, #007dcc, #0081c7, #0085c2, #0087bc, #0089b5, #008aae, #008aa4, #008a97, #008989, #008f7a);
   font-family: 'Montserrat', sans-serif;
@@ -112,6 +118,8 @@
   background-image: url(./Assets/backgroundTry2.svg);
   background-repeat: no-repeat;
 }
+
+
 
 
 
