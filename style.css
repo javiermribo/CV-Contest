@@ -9,15 +9,19 @@
   padding-left: 10px;
 }
 
+#backgroundTryStyle {
+  z-index: -1;
+  height: 100%;
+}
+
 .bodyStyleProperties {
-  color: white;
   background-image: linear-gradient(to bottom, #2c73d2, #1678cf, #007dcc, #0081c7, #0085c2, #0087bc, #0089b5, #008aae, #008aa4, #008a97, #008989, #008f7a);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
 
 .heroSection {
-  margin: 6% 0 6% 0;
+  margin: 8% 0 8% 0;
 }
 
 .heroImg {
@@ -75,7 +79,7 @@
 }
 
 .lineTimeline {
-  width: 3px;
+  width: 2px;
   height: 600px;
   margin: 0.6rem;
   background-color: black;
@@ -104,6 +108,11 @@
   font-size: 1.1rem;
 }
 
+.backgroundTryStyle2 {
+  background-image: url(./Assets/backgroundTry2.svg);
+  background-repeat: no-repeat;
+}
+
 
 
 
@@ -114,6 +123,10 @@
   padding-left: 10px;
   }
 
+  .nav-link {
+    padding: 14px;
+  }
+
   .knowledgeIndicator {
     padding-top: 50px;
     margin-left: 0px;
@@ -121,6 +134,18 @@
 
   .progressBar {
     padding-top: 15px;
+  }
+
+  .lineTimeline {
+    height: 1200px;
+  }
+
+  .heroSection {
+    margin: 70px 0 70px 0;
+  }
+
+  .heroImg {
+    width: 55%;
   }
 }
 
