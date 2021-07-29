@@ -90,7 +90,7 @@
 
 .lineTimeline {
   width: 2px;
-  height: 600px;
+  height: 650px;
   margin: 0.6rem;
   background-color: black;
   position: absolute;
@@ -121,8 +121,34 @@
   background-image: url(./Assets/backgroundTry2.svg);
 }
 
+#card-portfolio-style {
+  border: 0;
+  background-color: none;
+}
 
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);;
+}
 
+.project-indicator {
+  display: none;
+}
+
+.project-card:hover .project-indicator {
+  display: block;
+  color: white;
+  transition-duration: 1s;
+}
+
+.project-card:hover .card-img-overlay{
+  background-color: black;
+  transition-duration: 1s;
+}
+
+.card-img {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
 
 
 
