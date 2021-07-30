@@ -156,7 +156,7 @@
 }
 
 footer {
-  background-image: linear-gradient(to bottom, #236bc2, #0061d7, #0054e9, #0042f6, #2222ff);
+  background-color: #438B74;
 }
 
 footer, .bigger-triangle {
@@ -166,17 +166,37 @@ footer, .bigger-triangle {
 
 .bigger-triangle {
   clip-path: polygon(100% 0, 100% 23%, 4% 100%, 0 100%, 0 0);
-  background-color: #008987;
+  background-color: #324B4A;
   opacity: 0.8;
 }
 
 .footer-arrow {
-  width: 35px;
+  width: 2.5rem;
   height: auto;
 }
 
 .my-logo-cv {
-  margin-left: 25%;
+  margin-left: 20%;
+}
+
+.all-right-style {
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: auto;
+}
+
+.footer-icon-menu {
+  width: 2.5rem;
+  height: auto;
+  z-index: 1;
+}
+
+.menu-btn-footer {
+  height: fit-content;
+  z-index: 1;
 }
 
 
@@ -214,9 +234,33 @@ footer, .bigger-triangle {
   }
 
   .my-logo-cv {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-left: 16%;
   }
+
+  .all-right-style {
+    margin-top: 2rem;
+}
+
+  .social-icons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+
+.social-icon {
+  width: 1.6rem;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.footer-arrow, .footer-icon-menu {
+  width: 2.2rem;
+}
+
+.menu-btn-footer {
+  margin: 1.5rem 0.5rem 0 0;
+}
 }
 
 @media (min-width: 768px) {
